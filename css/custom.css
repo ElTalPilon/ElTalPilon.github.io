@@ -42,12 +42,14 @@ ul.nav {
 	-moz-border-radius: 24px;
 	font-size: 28px;
 	width: 40px;
+	height: 40px;
 	opacity: 1;
 	right: 5px;
 	top: 5px;
 }
 
-.modal-content button:hover {	
+.modal-content button:hover {
+	opacity: .8;
 }
 
 .modal-content iframe{
