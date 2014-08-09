@@ -37,9 +37,9 @@ ul.nav {
 .modal-content button.close {
 	position: absolute;
 	background-color: white;
-	border-radius: 24px;
-	-webkit-border-radius: 24px;
-	-moz-border-radius: 24px;
+	border-radius: 19px;
+	-webkit-border-radius: 19px;
+	-moz-border-radius: 19px;
 	font-size: 28px;
 	width: 40px;
 	height: 40px;
