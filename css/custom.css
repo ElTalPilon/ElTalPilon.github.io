@@ -30,9 +30,29 @@ ul.nav {
 	padding: 0 45px;
 }
 
+.modal-content {
+	position: relative;
+}
+
+.modal-content button.close {
+	position: absolute;
+	background-color: white;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	font-size: 28px;
+	width: 40px;
+	opacity: 1;
+	right: 5px;
+	top: 5px;
+}
+
+.modal-content button:hover {	
+}
+
 .modal-content iframe{
-	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 15px;
 }
 
 .btn-lg {
