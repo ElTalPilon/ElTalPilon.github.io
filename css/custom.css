@@ -30,7 +30,7 @@ ul.nav {
 	padding: 0 45px;
 }
 
-.modal-content {
+.modal-content iframe{
 	margin-top: 15px;
 	margin-bottom: 20px;
 }
