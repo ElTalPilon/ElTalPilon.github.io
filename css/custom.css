@@ -31,6 +31,10 @@ ul.nav {
 }
 
 .modal-content {
+	padding: 20px;
+}
+
+/*.modal-content {
 	position: relative;
 }
 
@@ -51,11 +55,11 @@ ul.nav {
 .modal-content button:hover {
 	opacity: .8;
 }
-
 .modal-content iframe{
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
+*/
 
 .btn-lg {
 	font-size: 36px;
