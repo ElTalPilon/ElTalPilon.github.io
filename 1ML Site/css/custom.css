@@ -30,14 +30,6 @@ ul.nav {
 	padding: 0 45px;
 }
 
-.modal-dialog {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: -170px;
-	margin-left: -300px;
-}
-
 .modal-content {
 	position: relative;
 }
