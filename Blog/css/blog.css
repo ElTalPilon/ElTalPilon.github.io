@@ -155,7 +155,7 @@ h6, .h6 {
 }
 
 .blog-post img {
-  width: 400px;
+  width: 100%;
 }
 
 h2 {
@@ -173,6 +173,11 @@ h2 {
 .blog-main {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.blog-main img {
+  margin-bottom: 30px;
+  max-width: 100%;
 }
 
 /* Posts box */
@@ -207,6 +212,23 @@ h2 {
 
 #posts-box ol li:last-child {
   border-bottom: none;
+}
+
+/* About */
+#about img {
+  border-radius: 100px;
+  margin-right: 30px;
+  width: 200px;
+  float: left;
+}
+
+#about h1 {
+  color: #e67e22;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#about p {
+  clear: both;
 }
 
 /* Sidebar modules for boxing content */
@@ -289,6 +311,13 @@ h2 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.sticky-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+
 
 /*
  *  Media queries
