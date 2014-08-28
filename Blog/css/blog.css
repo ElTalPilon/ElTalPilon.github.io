@@ -150,6 +150,14 @@ h6, .h6 {
   line-height: 18px;
 }
 
+#img-wrapper {
+  text-align: center;
+}
+
+.blog-post img {
+  width: 400px;
+}
+
 h2 {
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 21px;
