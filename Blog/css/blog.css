@@ -238,6 +238,22 @@ h2 {
   text-align: center;
 }
 
+/* Share Buttons */
+
+#share-buttons p {
+  text-align: center;
+}
+
+#share-buttons img {
+  width: 50px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
 /* Pagination */
 .pager {
   margin-bottom: 60px;
