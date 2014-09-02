@@ -94,6 +94,7 @@ h6, .h6 {
 }
 
 /* Active state gets a caret at the bottom */
+
 .blog-nav .active {
   color: #fff;
 }
@@ -214,23 +215,6 @@ h2 {
   border-bottom: none;
 }
 
-/* About */
-#about img {
-  border-radius: 100px;
-  margin-right: 30px;
-  width: 200px;
-  float: left;
-}
-
-#about h1 {
-  color: #e67e22;
-  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#about p {
-  clear: both;
-}
-
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
@@ -296,6 +280,45 @@ h2 {
   border-radius: 30px;
 }
 
+/* About Page */
+
+#about img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+#about h1 {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-weight: 600;
+  color: #e67e22;
+}
+
+#about p {
+  clear: left;
+}
+
+/* Portfolio Page */
+
+.example {
+  background-color: #eee;
+  float: left;
+  width: 32%;
+  margin: .5%;
+  padding: .5%;
+  box-shadow: 0 1px 1px #ddd;
+  margin-bottom: 5%;
+}
+
+.example img {
+  width: 100%;
+}
+
+.example h3 {
+  border-bottom: 1px solid black;
+  padding: 1% 0%;
+  font-size: 20px;
+}
+
 
 /*
  * Footer
@@ -326,5 +349,19 @@ h2 {
 @media (max-width: 991px) {
   #subscribe-box h4 {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  #xs-center, #about h1 {
+    text-align: center;
+  }
+
+  #xs-center img {
+    width: 50%;
+  }
+
+  .sticky-footer {
+    position: static;
   }
 }
