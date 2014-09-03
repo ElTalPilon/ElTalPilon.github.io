@@ -224,6 +224,8 @@ h2 {
   padding: 15px;
   background-color: #f5f5f5;
   border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
 }
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
@@ -278,11 +280,41 @@ h2 {
   padding: 10px 20px;
   text-align: center;
   border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+
+
+/* Home Page */
+
+#home-top {
+  padding: 60px 0 50px 0;
+  margin-bottom: 30px;
+  background-image: url(../imgs/background.jpg);
+  background-attachment: fixed;
+}
+
+#home-top h1 {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-weight: 500;
+  color: #e74c3c;
+  text-align: justify;
+}
+
+#home-top .btn {
+  font-size: 25px;
+}
+
+#home-top input.form-control {
+  font-size: 25px;
+  height: 50px;
 }
 
 /* About Page */
 
-#about img {
+#about img, #home-top img {
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
   border-radius: 100%;
   width: 100%;
 }
