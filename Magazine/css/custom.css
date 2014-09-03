@@ -1,8 +1,49 @@
 @font-face {
 	font-family: klavika;
+	src: url(../fonts/Klavika-Light.otf);
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: klavika;
 	src: url(../fonts/Klavika-Regular.otf);
 	font-weight: 300;
 }
+
+@font-face {
+	font-family: klavika;
+	src: url(../fonts/Klavika-Bold.otf);
+	font-weight: 900;
+}
+
+body {	
+	font-family: klavika, arvo, "Helvetica neue", serif;
+	font-size: 16px;
+}
+
+/* Navbar */
+
+.navbar {
+	background-color: transparent;
+	border: none;
+	margin-bottom: -65px;
+	padding-top: 10px;
+}
+
+.navbar-brand img {
+	width: 90%;
+	max-width: 353px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fefefe;
+	opacity: .7;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+/* Jumbotron */
 
 .jumbotron {
 	background: url(../imgs/background.jpg) no-repeat center center;
@@ -12,10 +53,10 @@
 	background-size: cover;
 	padding: 170px 0px;
 	border-top: 3px solid #E74C3C;
+	margin-bottom: 0;
 }
 
 .jumbotron h1 {
-	font-family: klavika, arvo, "Helvetica neue", serif;
 	text-align: center;
 	padding: 10px;
 	margin: 10px 20px;
@@ -30,3 +71,76 @@
 .jumbotron h1 strong {
 	color: #E74C3C;
 }
+
+/* Bottom section */
+
+#bottom-section .col-md-4 {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 300px;
+	height: 100%;
+	padding-top: 250px;
+	text-align: center;
+}
+
+#bottom-section .col-md-4 p {
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+
+#bottom-section a:hover {
+	opacity: .9;
+}
+
+.btn-success {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#byfw {
+	background-image: url(../imgs/byfw.jpg);
+	background-color: #E74C3C;
+}
+
+#baw {
+	background-image: url(../imgs/baw.png);
+	background-color: #F39C12;
+}
+
+#oml {
+	background-image: url(../imgs/oml.jpg);
+	background-color: #F1C40F;
+}
+
+/* Footer */
+
+footer {
+	background-color: #333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 200;
+	color: #FEFEFE;
+}
+
+footer p {
+	margin-top: 5px;
+}
+
+footer a {
+	color: #AAA;
+}
+
+footer a:hover {
+	color: #777;
+}
+
+/* Universal styling */
+
+.right-align {
+	text-align: right;
+}
+
+/* Media Queries */
+
