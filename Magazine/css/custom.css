@@ -1,0 +1,32 @@
+@font-face {
+	font-family: klavika;
+	src: url(../fonts/Klavika-Regular.otf);
+	font-weight: 300;
+}
+
+.jumbotron {
+	background: url(../imgs/background.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 170px 0px;
+	border-top: 3px solid #E74C3C;
+}
+
+.jumbotron h1 {
+	font-family: klavika, arvo, "Helvetica neue", serif;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 20px;
+	font-weight: 600;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,.1);
+	text-shadow: 1px 1px 2px #333;
+}
+
+.jumbotron h1 strong {
+	color: #E74C3C;
+}
