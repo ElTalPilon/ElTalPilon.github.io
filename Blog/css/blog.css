@@ -1,3 +1,9 @@
+@font-face {
+  font-family: klavika;
+  src: url(../fonts/Klavika-Bold.otf);
+  font-weight: 900;
+}
+
 /*
  * Globals
  */
@@ -288,27 +294,29 @@ h2 {
 /* Home Page */
 
 #home-top {
-  padding: 60px 0 50px 0;
+  padding: 230px 0 225px 0;
   margin-bottom: 30px;
-  background-image: url(../imgs/background.jpg);
+  background-image: url(../imgs/photo.jpg);
   background-attachment: fixed;
 }
 
 #home-top h1 {
-  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif; 
-  font-weight: 500;
-  color: #e74c3c;
-  text-align: justify;
+  font-family: klavika, arvo, "Helvetica neue", serif;
+  font-weight: 900;
+  color: #3498db;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
 }
 
-#home-top .btn {
-  font-size: 25px;
+#home-top span {
+  color: #f1c40f;
 }
 
-#home-top input.form-control {
-  font-size: 25px;
-  height: 50px;
+#home-top a {
+  color: #FFF;
+  text-decoration: none;
 }
+
 
 /* About Page */
 

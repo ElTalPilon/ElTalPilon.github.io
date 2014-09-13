@@ -74,23 +74,23 @@ body {
 
 /* Bottom section */
 
-#bottom-section .col-md-4 {
+#bottom-section .col-sm-4 {
 	background-repeat: no-repeat;
 	background-size: 100%;
-	min-height: 300px;
+	padding-top: 20%;
 	height: 100%;
-	padding-top: 250px;
 	text-align: center;
 }
 
-#bottom-section .col-md-4 p {
+#bottom-section .col-sm-4 p {
 	color: white;
 	font-size: 18px;
 	font-weight: 100;
-	margin-bottom: 10px;
+	margin-bottom: 5%;
 }
 
 #bottom-section a:hover {
+	text-decoration: none;
 	opacity: .9;
 }
 
@@ -144,3 +144,51 @@ footer a:hover {
 
 /* Media Queries */
 
+@media (max-width: 991px) {
+	footer p {
+		font-size: 14px;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	.navbar-brand {
+		width: 60%;
+	}
+
+	.navbar-inverse .navbar-brand {
+		color: #999;
+	}
+
+	.jumbotron {
+		margin-top: -186px;
+		padding-top: 210px;
+		padding-bottom: 90px;
+	}
+
+	.jumbotron h1 {
+		font-size: 25px;
+	}
+
+	#bottom-section .col-sm-4 {
+		padding-top: 55%;
+	}
+
+	footer .col-sm-6{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 486px) {
+	.navbar-brand {
+		width: 70%;
+	}
+}
+/*
+@media (min-width: 768px) {
+	#bottom-section .col-sm-4 {
+
+	}
+}*/
