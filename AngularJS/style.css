@@ -42,3 +42,24 @@
 #booklist-wrapper .book .book-details {
 	margin-left: 160px;
 }
+
+#kartlist-wrapper {
+	width: 100%;
+	padding: 10px;
+	padding-top: 80px;
+}
+
+#kartlist-wrapper input {
+	width: 25%;
+}
+
+#kartlist-wrapper .book {
+	height: 100%;
+	border: 1px solid gray;
+	padding: 10px;
+	margin-bottom: 10px; 
+}
+
+#kartlist-wrapper .book .book-details {
+	margin-left: 160px;
+}
