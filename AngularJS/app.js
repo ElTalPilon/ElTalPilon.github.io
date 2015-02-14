@@ -64,6 +64,9 @@ myApp.factory("bookService", function() {
 		getBooks: function() {
 			return books;
 		}
+		addToKart: function(book) {
+			
+		}
 	}
 });
 
@@ -75,7 +78,7 @@ myApp.factory("kartService", function() {
 		getKart: function() {
 			return kart;
 		},
-		addToKart: function() {
+		addToKart: function(book) {
 			kart.push(book);
 		},
 		buy: function(book) {
