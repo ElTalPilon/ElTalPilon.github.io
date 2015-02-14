@@ -94,6 +94,7 @@ myApp.controller("BookListCtrlr", function($scope, bookService, kartService) {
 	$scope.books = bookService.getBooks();
 
 	$scope.addToKart = function(book){
+		console.log(book.name " added to Kart.");
 		kartService.addToKart(book);
 	}
 });
@@ -102,6 +103,7 @@ myApp.controller("KartListCtrlr", function($scope, kartService) {
 	$scope.kart = kartService.getKart();
 
 	$scope.buy = function(book){
+		console.log(book.name " bought.");
 		kartService.buy(book);
 	}
 });
