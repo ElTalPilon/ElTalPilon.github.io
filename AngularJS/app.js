@@ -64,9 +64,6 @@ myApp.factory("bookService", function() {
 		getBooks: function() {
 			return books;
 		}
-		addToKart: function(book) {
-
-		}
 	}
 });
 
