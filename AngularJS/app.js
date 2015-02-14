@@ -74,12 +74,10 @@ myApp.factory("kartService", function() {
 	return {
 		getKart: function() {
 			return kart;
-		}
-
+		},
 		addToKart: function() {
 			kart.push(book);
-		}
-
+		},
 		buy: function(book) {
 			alert("Thanks for buying: ", book.name);
 		}
@@ -92,11 +90,11 @@ myApp.controller("HeaderCtrlr", function($scope) {
 	$scope.appDetails.tagline = "We have 1 million books for you!";
 });
 
-myApp.controller("BookListCtrlr", function($scope, bookService) {
+myApp.controller("BookListCtrlr", function($scope, bookService, kartService) {
 	$scope.books = bookService.getBooks();
 
 	$scope.addToKart = function(book){
-		console.log("Added to Kart: ", book.name);
+		kartService.addToKart(book);
 	}
 });
 
