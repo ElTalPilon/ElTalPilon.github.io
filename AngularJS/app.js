@@ -8,6 +8,7 @@ myApp.config(function($routeProvider) {
 		})
 		.when("/kart", {
 			templateUrl: "partials/kart-list.html"
+			controller: "KartListCtrlr"
 		})
 	.otherwise({
 		redirectTo: "/books"
@@ -66,5 +67,13 @@ myApp.controller("BookListCtrlr", function($scope) {
 
 	$scope.addToKart = function(book){
 		console.log("Added to Kart: ", book.name);
+	}
+});
+
+myApp.controller("KartListCtrlr", function($scope) {
+	$scope.kart = [];
+
+	$scope.buy = function(book){
+		console.log("You just bought ", book.name);
 	}
 });
