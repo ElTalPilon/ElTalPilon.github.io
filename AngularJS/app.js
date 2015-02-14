@@ -7,7 +7,7 @@ myApp.config(function($routeProvider) {
 			controller: "BookListCtrlr"
 		})
 		.when("/kart", {
-			templateUrl: "partials/kart-list.html"
+			templateUrl: "partials/kart-list.html",
 			controller: "KartListCtrlr"
 		})
 	.otherwise({
@@ -65,7 +65,7 @@ myApp.factory("bookService", function() {
 			return books;
 		}
 		addToKart: function(book) {
-			
+
 		}
 	}
 });
