@@ -1,4 +1,4 @@
-var myApp = angular.module("myApp", ["ngRoute"]);
+var myApp = angular.module("myApp", ["ngRoute", "ngAnimate"]);
 
 myApp.config(function($routeProvider) {
 	$routeProvider
@@ -79,22 +79,30 @@ myApp.factory("kartService", function() {
 			kart.push(book);
 		},
 		buy: function(book) {
-			alert("Thanks for buying: ", book.name);
+			console.log(book.name, " bought.");
 		}
 	}
 });
 
-myApp.controller("HeaderCtrlr", function($scope) {
+myApp.controller("HeaderCtrlr", function($scope, $location) {
 	$scope.appDetails = {};
 	$scope.appDetails.title = "BooKart";
 	$scope.appDetails.tagline = "We have 1 million books for you!";
+
+	$scope.nav = {};
+	$scope.nav.isActive = function(path) {
+		if(path === $location.path()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 });
 
 myApp.controller("BookListCtrlr", function($scope, bookService, kartService) {
 	$scope.books = bookService.getBooks();
 
 	$scope.addToKart = function(book){
-		console.log(book.name " added to Kart.");
 		kartService.addToKart(book);
 	}
 });
@@ -103,7 +111,6 @@ myApp.controller("KartListCtrlr", function($scope, kartService) {
 	$scope.kart = kartService.getKart();
 
 	$scope.buy = function(book){
-		console.log(book.name " bought.");
 		kartService.buy(book);
 	}
 });
