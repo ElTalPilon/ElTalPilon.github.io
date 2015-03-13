@@ -7,7 +7,6 @@
 
 body {
 	background-color: #131516;
-	min-width: 537px;
 }
 
 p {
@@ -155,7 +154,7 @@ footer {
 }
 
 /* Extra small devices (phones, less than 768px) */
-@media(max-width: 767px){
+@media (max-width: 767px){
 
 	#banner h3 {
 		/*margin-left: 60px;*/
