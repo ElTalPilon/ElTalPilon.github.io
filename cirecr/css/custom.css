@@ -149,6 +149,10 @@ footer {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px){
 
+	.navbar-brand img {
+		width: 175px;
+	}
+
 	#banner h3 {
 		margin-bottom: 0;
 		margin: auto;
