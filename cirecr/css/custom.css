@@ -20,10 +20,6 @@ header {
 	height: 432px;
 }
 
-.jumbotron {
-	background-color: transparent;
-}
-
 .navbar-custom{
 	font-family: Agency, sans-serif;
 	background-color: transparent;
@@ -82,9 +78,6 @@ header {
 /*============== FOOTER ==============*/
 
 footer {
-	margin-top: 24px;
-	padding: 24px 0;
-	background-color: #D7D7D7;
 }
 
 /*============== Home Page ==============*/
@@ -93,7 +86,8 @@ footer {
 	font-family: Roboto, sans-serif;
 	background-color: #FFFFFF;
 	color: #000000;
-	padding: 0 24px 48px 24px;
+	padding: 0 24px 24px 24px;
+	margin-bottom: 48px;
 }
 
 #home p {
@@ -150,21 +144,18 @@ footer {
 		margin-top: 5px;
 		font-size: 36px;
 	}
-
 }
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px){
 
 	#banner h3 {
-		/*margin-left: 60px;*/
 		margin-bottom: 0;
 		margin: auto;
 		text-align: center;
 	}
 
 	#banner h2 {
-		/*margin-left: 185px;*/
 		margin: auto;
 		text-align: center;
 		margin-top: 5px;
