@@ -7,6 +7,7 @@
 
 body {
 	background-color: #131516;
+	min-width: 329px;
 }
 
 p {
@@ -17,7 +18,8 @@ p {
 
 header {
 	background-image: url("../imgs/banner-1-home-1080x432.png");
-	height: 432px;
+	background-repeat: no-repeat;
+	height: 500px;
 }
 
 .navbar-custom{
@@ -167,7 +169,6 @@ footer {
 	}
 }
 
-/* Extra small devices (phones, less than 768px) */
 @media (max-width: 415px){
 
 	.navbar-brand img {
@@ -176,5 +177,16 @@ footer {
 
 	.navbar-header button {
 		margin-top: 7px;
+	}
+}
+
+@media (max-width: 537px){
+
+	#banner h3 {
+		font-size: 20px;
+	}
+
+	#banner h2 {
+		font-size: 24px;
 	}
 }
