@@ -29,7 +29,7 @@ header {
 }
 
 .navbar-collapse ul {
-	margin-top: 25px;
+	margin-top: 26px;
 }
 
 .navbar-brand {
@@ -149,8 +149,8 @@ footer {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px){
 
-	.navbar-brand img {
-		width: 175px;
+	.navbar-header button {
+		margin-top: 15px;
 	}
 
 	#banner h3 {
@@ -164,5 +164,17 @@ footer {
 		text-align: center;
 		margin-top: 5px;
 		font-size: 36px;
+	}
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 415px){
+
+	.navbar-brand img {
+		width: 175px;
+	}
+
+	.navbar-header button {
+		margin-top: 7px;
 	}
 }
