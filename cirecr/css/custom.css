@@ -41,16 +41,19 @@ header {
 .nav>li>a {
 	color: #FFFFFF;
 	padding: 2px 12px;
+	margin-left: 4px;
 	height: 24px; 
 }
 
-.nav>li>a:hover {
+.nav>li>a:hover,
+.nav>li>a:focus {
 	background-color: #EC0928;
 	border-radius: 5px;
+	outline: none;
 }
 
-.nav>li>a:focus {
-	background-color: transparent;
+.nav>.active>a {
+	background-color: #EC0928;
 	border-radius: 5px;
 	outline: none;
 }
