@@ -81,8 +81,7 @@ header {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px){
 
-	.navbar-header button {
-		margin-top: 15px;
+	header {
 	}
 
 	#banner-about h2 {
@@ -102,24 +101,13 @@ header {
 	}
 }
 
-@media (max-width: 415px){
-
-	.navbar-brand img {
-		width: 175px;
-	}
-
-	.navbar-header button {
-		margin-top: 7px;
-	}
-}
-
 @media (max-width: 537px){
-
-	#banner-about h3 {
-		font-size: 18px;
-	}
 
 	#banner-about h2 {
 		font-size: 24px;
+	}
+
+	#banner-about h3 {
+		font-size: 18px;
 	}
 }

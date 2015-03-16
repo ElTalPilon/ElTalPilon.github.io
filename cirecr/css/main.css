@@ -56,3 +56,33 @@ p {
 
 footer {
 }
+
+/**************** Media Queries ****************/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px){
+
+	.navbar-header button {
+		margin-top: 15px;
+	}
+
+	.navbar-collapse ul {
+		margin-top: 5px;
+	}
+
+	.nav>li>a {
+		margin-bottom: 2px;
+	}
+
+}
+
+@media (max-width: 415px){
+
+	.navbar-brand img {
+		width: 175px;
+	}
+
+	.navbar-header button {
+		margin-top: 7px;
+	}
+}
