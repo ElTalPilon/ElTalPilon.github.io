@@ -1,0 +1,58 @@
+/******************** Fonts ********************/
+
+ @font-face { font-family: Roboto; src: url('../fonts/Roboto-Regular.ttf'); }
+ @font-face { font-family: Agency; src: url('../fonts/AgencyFB-regular.ttf');}
+
+/**************** Author Styles ****************/
+
+body {
+	background-color: #131516;
+}
+
+p {
+	margin: 0;
+}
+
+/*============== HEADER ==============*/
+
+.navbar-custom{
+	font-family: Agency, sans-serif;
+	background-color: transparent;
+	font-size: 18px;
+	border: none;
+	margin: 24px 0;
+}
+
+.navbar-collapse ul {
+	margin-top: 26px;
+}
+
+.navbar-brand {
+	height: 75px;
+}
+
+.fa-bars,
+.nav>li>a {
+	color: #FFFFFF;
+	padding: 2px 8px;
+	margin-left: 4px;
+	height: 24px; 
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+	background-color: #EC0928;
+	border-radius: 5px;
+	outline: none;
+}
+
+.nav>.active>a {
+	background-color: #EC0928;
+	border-radius: 5px;
+	outline: none;
+}
+
+/*============== FOOTER ==============*/
+
+footer {
+}

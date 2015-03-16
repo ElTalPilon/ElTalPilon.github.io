@@ -1,0 +1,125 @@
+/*============== Styles for About Page ==============*/
+
+header {
+	background-image: url("../imgs/banner-3-acerca-de-1080x432.png");
+	background-repeat: no-repeat;
+	height: 432px;
+}
+
+#banner-about {
+	font-family: Roboto, sans-serif;
+	margin-top: 105px;
+}
+
+#banner-about h3,
+#banner-about h2 {
+	color: #FFFFFF;
+}
+
+#banner-about h2 {
+	margin: 0px 0px 0px 290px;
+	font-size: 36px;
+}
+
+#banner-about h3 {
+	margin-left: 350px;
+	margin-top: 10px;
+}
+
+#about {
+	font-family: Roboto, sans-serif;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 0 24px 24px 24px;
+	margin-bottom: 48px;
+}
+
+#about #cire {
+	margin: 24px 0px 40px 0px;
+}
+
+#about #cire h2 {
+	margin: 0px;
+	margin-left: -15px; /* CAMBIAR ESTO*/
+}
+
+#about h3 {
+	margin-top: 0px;
+}
+
+#about p {
+	text-align: justify;
+}
+
+#about #mission {
+	margin: 24px 0px;
+}
+
+#about #vision {
+	margin: 24px 0px;
+}
+
+#about #logo-cire {
+	margin: 48px 0;
+}
+
+/**************** Media Queries ****************/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px){
+
+
+	#banner-about h2 {
+		margin: 0px 0px 0px 120px;
+	}
+
+	#banner-about h3 {
+		margin-left: 175px;
+	}
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px){
+
+	.navbar-header button {
+		margin-top: 15px;
+	}
+
+	#banner-about h2 {
+		margin: auto;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	#banner-about h3 {
+		margin: auto;
+		margin-top: 5px;
+		text-align: center;
+	}
+
+	#about #principles {
+		margin-top: 24px;
+	}
+}
+
+@media (max-width: 415px){
+
+	.navbar-brand img {
+		width: 175px;
+	}
+
+	.navbar-header button {
+		margin-top: 7px;
+	}
+}
+
+@media (max-width: 537px){
+
+	#banner-about h3 {
+		font-size: 18px;
+	}
+
+	#banner-about h2 {
+		font-size: 24px;
+	}
+}

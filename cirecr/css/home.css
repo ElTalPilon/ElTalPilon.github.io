@@ -1,90 +1,31 @@
-/******************** Fonts ********************/
-
- @font-face { font-family: Roboto; src: url('../fonts/Roboto-Regular.ttf'); }
- @font-face { font-family: Agency; src: url('../fonts/AgencyFB-regular.ttf');}
-
-/**************** Author Styles ****************/
-
-body {
-	background-color: #131516;
-}
-
-p {
-	margin: 0;
-}
-
-/*============== HEADER ==============*/
+/*============== Styles for Home Page ==============*/
 
 header {
 	background-image: url("../imgs/banner-1-home-1080x432.png");
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 432px;
 }
 
-.navbar-custom{
-	font-family: Agency, sans-serif;
-	background-color: transparent;
-	font-size: 18px;
-	border: none;
-	margin: 24px 0;
-}
-
-.navbar-collapse ul {
-	margin-top: 26px;
-}
-
-.navbar-brand {
-	height: 75px;
-}
-
-.fa-bars,
-.nav>li>a {
-	color: #FFFFFF;
-	padding: 2px 8px;
-	margin-left: 4px;
-	height: 24px; 
-}
-
-.nav>li>a:hover,
-.nav>li>a:focus {
-	background-color: #EC0928;
-	border-radius: 5px;
-	outline: none;
-}
-
-.nav>.active>a {
-	background-color: #EC0928;
-	border-radius: 5px;
-	outline: none;
-}
-
-#banner {
+#banner-home {
 	font-family: Roboto, sans-serif;
 	margin-top: 105px;
 }
 
-#banner h3,
-#banner h2 {
+#banner-home h3,
+#banner-home h2 {
 	color: #FFFFFF;
 }
 
-#banner h3 {
+#banner-home h3 {
 	margin-left: 230px;
 	margin-bottom: 0;
 }
 
-#banner h2 {
+#banner-home h2 {
 	margin-left: 355px;
 	margin-top: 5px;
 	font-size: 36px;
 }
-
-/*============== FOOTER ==============*/
-
-footer {
-}
-
-/*============== Home Page ==============*/
 
 #home {
 	font-family: Roboto, sans-serif;
@@ -118,17 +59,6 @@ footer {
 	margin: 40px 0;
 }
 
-
-/*============== About Page ==============*/
-
-/*============== Services Page ==============*/
-
-/*============== Clients Page ==============*/
-
-/*============== Contact Page ==============*/
-
-
-
 /**************** Media Queries ****************/
 
 
@@ -136,12 +66,12 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px){
 
-	#banner h3 {
+	#banner-home h3 {
 		margin-left: 90px;
 		margin-bottom: 0;
 	}
 
-	#banner h2 {
+	#banner-home h2 {
 		margin-left: 225px;
 		margin-top: 5px;
 		font-size: 36px;
@@ -155,13 +85,13 @@ footer {
 		margin-top: 15px;
 	}
 
-	#banner h3 {
+	#banner-home h3 {
 		margin-bottom: 0;
 		margin: auto;
 		text-align: center;
 	}
 
-	#banner h2 {
+	#banner-home h2 {
 		margin: auto;
 		text-align: center;
 		margin-top: 5px;
@@ -182,11 +112,11 @@ footer {
 
 @media (max-width: 537px){
 
-	#banner h3 {
+	#banner-home h3 {
 		font-size: 14px;
 	}
 
-	#banner h2 {
+	#banner-home h2 {
 		font-size: 20px;
 	}
 }
