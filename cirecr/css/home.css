@@ -35,15 +35,6 @@ header {
 	margin-bottom: 48px;
 }
 
-#home #welcome {
-	margin: 24px 0px 40px 0px;
-}
-
-#home #welcome h2 {
-	margin: 0px;
-	margin-left: -15px; /* CAMBIAR ESTO*/
-}
-
 #home h3 {
 	margin-bottom: 24px;
 }
@@ -57,7 +48,7 @@ header {
 }
 
 #home #example-img {
-	margin: 24px 0;
+	margin: 24px 0px 0px 0px;
 }
 
 #home #top-energy-img {

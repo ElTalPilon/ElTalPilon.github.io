@@ -1,32 +1,32 @@
 /*============== Styles for About Page ==============*/
 
 header {
-	background-image: url("../imgs/banner-3-acerca-de-1080x432.png");
+	background-image: url("../imgs/banner-2-home-1080x432.png");
 	background-repeat: no-repeat;
 	height: 432px;
 }
 
-#banner-about {
+#banner-services {
 	font-family: Roboto, sans-serif;
 	margin-top: 105px;
 }
 
-#banner-about h3,
-#banner-about h2 {
+#banner-services h3,
+#banner-services h2 {
 	color: #FFFFFF;
 }
 
-#banner-about h2 {
-	margin: 0px 0px 0px 290px;
-	font-size: 36px;
-}
-
-#banner-about h3 {
-	margin-left: 350px;
+#banner-services h3 {
+	margin-left: 250px;
 	margin-top: 10px;
 }
 
-#about {
+#banner-services h2 {
+	margin: 0px 0px 0px 370px;
+	font-size: 36px;
+}
+
+#services {
 	font-family: Roboto, sans-serif;
 	background-color: #FFFFFF;
 	color: #000000;
@@ -34,24 +34,13 @@ header {
 	margin-bottom: 48px;
 }
 
-#about h3 {
+#services h3 {
 	margin-top: 0px;
+	margin-bottom: 24px;
 }
 
-#about p {
+#services p {
 	text-align: justify;
-}
-
-#about #mission {
-	margin: 24px 0px;
-}
-
-#about #vision {
-	margin: 24px 0px;
-}
-
-#about #logo-cire {
-	margin: 48px 0;
 }
 
 /**************** Media Queries ****************/
@@ -59,12 +48,11 @@ header {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px){
 
-
-	#banner-about h2 {
+	#banner-services h2 {
 		margin: 0px 0px 0px 120px;
 	}
 
-	#banner-about h3 {
+	#banner-services h3 {
 		margin-left: 175px;
 	}
 }
@@ -75,30 +63,26 @@ header {
 	header {
 	}
 
-	#banner-about h2 {
+	#banner-services h2 {
 		margin: auto;
 		margin-bottom: 0;
 		text-align: center;
 	}
 
-	#banner-about h3 {
+	#banner-services h3 {
 		margin: auto;
 		margin-top: 5px;
 		text-align: center;
-	}
-
-	#about #principles {
-		margin-top: 24px;
 	}
 }
 
 @media (max-width: 537px){
 
-	#banner-about h2 {
+	#banner-services h2 {
 		font-size: 24px;
 	}
 
-	#banner-about h3 {
+	#banner-services h3 {
 		font-size: 18px;
 	}
 }
