@@ -1,0 +1,103 @@
+/******************** Fonts ********************/
+
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+ @font-face { font-family: Agency; src: url('../fonts/AgencyFB-regular.ttf');}
+
+/**************** Author Styles ****************/
+
+body {
+}
+
+p {
+	margin: 0;
+	font-size: 18px;
+}
+
+/*============== HEADER ==============*/
+
+.navbar-custom{
+	font-family: Agency, sans-serif;
+	background-color: transparent;
+	font-size: 18px;
+	border: none;
+	margin-top: 160px;
+}
+
+.navbar-collapse ul {
+	margin-top: 26px;
+}
+
+.navbar-brand {
+	height: 75px;
+}
+
+.fa-bars,
+.nav>li>a {
+	color: #FFFFFF;
+	padding: 2px 8px;
+	margin-left: 4px;
+	height: 24px; 
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+	background-color: #EC0928;
+	border-radius: 5px;
+	outline: none;
+}
+
+.nav>.active>a {
+	background-color: #EC0928;
+	border-radius: 5px;
+	outline: none;
+}
+
+/*============== MAIN ==============*/
+
+.container #title {
+	margin: 24px 0px 40px 0px;
+}
+
+.container #title h2 {
+	margin: 0px;
+	margin-left: -15px; /* CAMBIAR ESTO*/
+}
+
+/*============== FOOTER ==============*/
+
+footer {
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	background-color: #A7A9AC;
+	padding: 24px 0px 48px 0px;
+}
+
+/**************** Media Queries ****************/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px){
+
+	.navbar-header button {
+		margin-top: 15px;
+	}
+
+	.navbar-collapse ul {
+		margin-top: 5px;
+	}
+
+	.nav>li>a {
+		margin-bottom: 2px;
+	}
+
+}
+
+@media (max-width: 415px){
+
+	.navbar-brand img {
+		width: 175px;
+	}
+
+	.navbar-header button {
+		margin-top: 7px;
+	}
+}
