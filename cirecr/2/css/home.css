@@ -54,8 +54,12 @@ header {
 }
 
 #section3 {
-	padding: 72px 0px;
+	padding-top: 72px;
 	font-family: Roboto, sans-serif;
+}
+
+#section3 .col-sm-6 {
+	margin-bottom: 72px;
 }
 
 #section3 a {
