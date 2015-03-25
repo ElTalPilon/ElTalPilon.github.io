@@ -72,6 +72,12 @@ footer {
 	padding: 24px 0px 48px 0px;
 }
 
+footer a {
+	text-decoration: none;
+	color: #333;
+	padding: 0px 5px;
+}
+
 /**************** Media Queries ****************/
 
 /* Extra small devices (phones, less than 768px) */
