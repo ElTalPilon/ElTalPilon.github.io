@@ -11,23 +11,6 @@ header {
 	margin: auto;
 }
 
-.carousel-fade .item {
-	opacity: 0;
-    transition: opacity;
-}
-
-.carousel-fade .active {
-	opacity: 1;
-    transition: opacity;
-}
-
-.carousel-fade .active.left,
-.carousel-fade .active.right {
-	left: 0;
-	opacity: 0;
-	z-index: 1;
-}
-
 #banner-home {
 	background-image: url("../imgs/banner-1.png");
 	background-size: cover;
