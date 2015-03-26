@@ -63,6 +63,10 @@ header {
 	margin-bottom: 72px;
 }
 
+#section3 img {
+	margin: auto;
+}
+
 #section3 a {
 	font-family: Agency, sans-serif;
 	font-weight: 400;
