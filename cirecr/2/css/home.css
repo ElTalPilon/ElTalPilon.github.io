@@ -5,11 +5,12 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 480px;
-	margin-bottom: 160px;
+	margin-bottom: 200px;
 }
 
 .carousel-fade img{
-	margin: auto;
+	margin: 0px;
+	width: 100%;
 }
 
 #section1 {
@@ -69,6 +70,13 @@ header {
 	background-color: #006680;
 	padding: 2px 12px;
 	color: #FFFFFF;
+}
+
+#section1,
+#section3,
+#section2 .container {
+	padding-left: 63px;
+	padding-right: 63px;
 }
 
 /**************** Media Queries ****************/
