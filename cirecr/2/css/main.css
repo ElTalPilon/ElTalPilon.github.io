@@ -52,17 +52,6 @@ p {
 	outline: none;
 }
 
-/*============== MAIN ==============*/
-
-.container #title {
-	margin: 24px 0px 40px 0px;
-}
-
-.container #title h2 {
-	margin: 0px;
-	margin-left: -15px; /* CAMBIAR ESTO*/
-}
-
 /*============== FOOTER ==============*/
 
 footer {
@@ -71,6 +60,11 @@ footer {
 	color: #333;
 	background-color: #A7A9AC;
 	padding: 24px 0px 48px 0px;
+}
+
+footer .container {
+	padding-left: 63px;
+	padding-right: 63px;
 }
 
 footer a {
