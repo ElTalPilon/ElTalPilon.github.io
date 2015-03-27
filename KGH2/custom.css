@@ -1,0 +1,129 @@
+*, p, a, h1, h2, h3, h4, h5, h6 {
+	padding: none;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	background-color: #111;
+	color: #8DC63F;
+	padding: .5em 0;
+}
+
+.container-fluid {
+	position: fixed;
+	min-height: 100%;
+	height: 100%;
+}
+
+.container-fluid main {
+	height: 100%;
+}
+
+#map-canvas {
+ 	height: 100%;
+}
+
+#item-info {
+	height: 100%;
+	overflow-y: auto;
+	box-shadow: 0px -5px 5px black;
+}
+
+#carousel-item-photos {
+}
+
+#carousel-item-photos .carousel-control .glyphicon{
+	position: absolute;
+	top: 45%;
+}
+
+.carousel-inner > .item > img {
+	max-height: 200px;
+	height: 200px;
+}
+
+#item-details {
+	background-color: #F2F2F2;
+	color: black;
+	padding: 1em;
+}
+
+#item-details h3 {
+	font-weight: 500;
+}
+
+#item-details #price {
+	color: #8DC63F;
+}
+
+#action-bar {
+	background-color: #464646;
+	padding: 1em 0;
+	color: #999;
+}
+
+#action-bar h5 {
+	margin-top: .5em;
+	letter-spacing: 1px;
+	color: #FFF;
+}
+
+#important-place-distance {
+	padding: 1em;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #666; 
+}
+
+#important-place-distance #distance {
+	font-size: 4em;
+	font-weight: 500;
+}
+
+#important-place-distance #units {
+	font-size: 3em;
+}
+
+#nerby-places {
+	padding: 1em;
+}
+
+#nearby-places ul {
+	list-style-type: none;
+}
+
+/* Custom Scrollbar
+
+.scrollbar-track {
+    width: 10px;
+    background: rgba(0, 0, 0, 0);
+    margin-right: 2px;
+    border-radius: 10px;
+    -webkit-transition: background 250ms linear;
+    transition: background 250ms linear;
+}
+
+.scrollbar-track:hover,
+.scrollbar-track.dragging {
+    background: #d9d9d9; 
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.scrollbar-handle {
+    width: 7px;
+    right: 0;
+    background: #999;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    -webkit-transition: width 250ms;
+    transition: width 250ms;
+}
+
+.scrollbar-track:hover .scrollbar-handle,
+.scrollbar-track.dragging .scrollbar-handle {
+    width: 10px;
+}
+
+*/
