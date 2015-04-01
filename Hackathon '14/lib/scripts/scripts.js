@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$(".results").hide();
+	$('.details').hide();
+	$('.itemGO').click(function(){
+		$(".results").show();
+	})
+	$('.results').click(function(){
+		$(".details").show();
+	})
+});

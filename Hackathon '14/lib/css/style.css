@@ -1,0 +1,106 @@
+* {
+	font-family: Proxima Nova, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background-color: #CC0000;
+	color: #FFF;
+	width: 99%;
+	padding: .5%;
+}
+
+	.header img{
+		vertical-align: middle;
+		display: inline;
+	}
+
+	.header h1{
+		vertical-align: middle;
+		display: inline;
+		color: #FFF;
+	}
+
+	.header p{
+		vertical-align:middle;
+		display: inline;
+		color: #FFF;
+	}
+	
+	.header .links{
+		background-color: #005500;
+		display: inline;
+		float: right;
+	}
+	
+	.header .links a{
+		color: #FFF;
+	}
+		
+.main{
+}
+
+.parameters{
+	background-color: #000000;
+	color: #FFF;
+	float:left;
+	width: 33%;
+}
+
+.results{
+	background-color: #555555;
+	color: #FFF;
+	float:left;
+	width: 34%;
+}
+
+.details{
+	background-color: #999999;
+	color: #FFF;
+	float:left;
+	width: 33%;
+}
+
+footer{
+	background-color: #F2F2F2;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	padding: .5% 0;
+}
+
+	footer p{
+		margin: 0;
+	}
+
+.item{
+	border-bottom: 1px solid white;
+	padding: 1% 2%;
+}
+
+.item:hover{
+	background-color: #FFFFFF;
+	border-botom: 1px solid black;
+	color: #000000;
+}
+
+	.item p{
+		margin: 0;
+	}
+	
+.itemGO{
+	background-color: #CC0000;
+	border-bottom: 1px solid white;
+	padding: 1% 2%;
+}
+
+.itemGO:hover{
+	background-color: #880000;
+	border-botom: 1px solid black;
+}
+
+	.itemGO p{
+		margin: 0;
+		text-align: right;
+	}

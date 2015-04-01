@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Pruebas</title>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- JavaScript -->
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
+	</head>
+
+	<body>
+		<button type="button" id="loginButton">Log In</button>
+		<!-- Ventana de Log In/Sign Up escondida -->
+		<div id='outerShadow'>
+			<div id='LISUBox'>
+				<div id='LIBox'>
+					<h1>Log In</h1>
+					<form id='LIForm'>
+						<input type="email"     placeholder="Email"/><br>
+						<input type="password" placeholder="Password"/>
+						<a href=# id="forgotPassword">Forgot your password?</a>
+						<button type="button" id="CancelBtn">Cancel</button>
+						<button type="button" id="LISubmit">Log In</button>
+					</form>
+					<br>
+					<br>
+					<div id="LISUToggle">
+						Need to <a href=# id="newAccount">create a new account</a>?
+					</div>
+				</div>
+				<div id='PWBox'>
+					<h1>Reset Password</h1>
+					<br>
+					<br>
+					<form id='LIForm'>
+						<input type="email"     placeholder="Email"/><br>
+						<button type="button" id="CancelBtn">Cancel</button>
+						<button type="button" id="PWSubmit">Reset my password</button>
+					</form>
+					<br>
+					<br>
+					<a href=# id="back2LogIn">Back</a>
+				</div>
+				<div id='SUBox'>
+					<h1>Sign Up</h1>
+					<form id='LIForm'>
+						<input type="email"     placeholder="Email"/><br>
+						<input type="password" placeholder="Password"/>
+						<button type="button" id="CancelBtn">Cancel</button>
+						<button type="button" id="SUSubmit">Sign Up</button>
+					</form>
+					<br>
+					<br>
+					<div id="LISUToggle">
+						Already have an account? <a href=# id="alreadyHave">Log In</a>!
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
