@@ -5,8 +5,9 @@
 
 // Colors
 
-$pill-color:        #EC0928;
-$primary-color:     #FFFFFF;
+$active-pill-color: #EC0928;
+$contrast-white:    #FFFFFF;
+$main-blue: 		#006680;
 $footer-bg-color:   #A7A9AC;
 $footer-font-color: #333333;
 
@@ -54,7 +55,7 @@ header {
 	margin: 0px;
 
 	.navbar-brand {
-		color: $primary-color;
+		color: $contrast-white;
 
 		&:hover {
 			@extend .navbar-brand;
@@ -70,7 +71,7 @@ header {
 	}
 
 	.fa-bars {
-		color: $primary-color;
+		color: $contrast-white;
 		padding: 2px 8px;
 		margin-left: 2px;
 		margin-right: 2px;
@@ -90,7 +91,7 @@ header {
 			.active>a,
 			a:hover,
 			a:focus {
-				background-color: $pill-color;
+				background-color: $active-pill-color;
 				border-radius: 5px;
 			}
 		}
@@ -121,7 +122,7 @@ footer {
 		padding: 0px 5px;
 
 		&:hover {
-			color: $primary-color;
+			color: $contrast-white;
 			text-decoration: none;
 		}
 	}

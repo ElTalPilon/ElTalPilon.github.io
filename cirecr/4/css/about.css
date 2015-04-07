@@ -1,0 +1,126 @@
+/******************** Fonts ********************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+@font-face {
+  font-family: Agency;
+  src: url("../fonts/AgencyFB-regular.ttf"); }
+/**************** Author Styles ****************/
+body {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0px;
+  font-size: 18px; }
+
+/*============== HEADER ==============*/
+header {
+  background-image: url("../imgs/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 480px;
+  margin-bottom: 194px; }
+  header #logo {
+    margin-left: -20px;
+    margin-top: 48px;
+    margin-bottom: 24px; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    header {
+      margin-bottom: 128px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    header {
+      margin-bottom: 46px; } }
+
+.navbar-custom {
+  background-color: transparent;
+  font-size: 18px;
+  border: none;
+  margin: 0px; }
+  .navbar-custom .navbar-brand, .navbar-custom .navbar-brand:hover {
+    color: #FFFFFF; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .navbar-custom .navbar-brand, .navbar-custom .navbar-brand:hover {
+        font-size: 15px; } }
+    @media (max-width: 574px) {
+      .navbar-custom .navbar-brand, .navbar-custom .navbar-brand:hover {
+        font-size: 14px; } }
+  .navbar-custom .fa-bars, .navbar-custom .navbar-collapse .nav > li > a {
+    color: #FFFFFF;
+    padding: 2px 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 24px; }
+  .navbar-custom .navbar-collapse {
+    font-family: Agency, sans-serif; }
+    .navbar-custom .navbar-collapse .nav {
+      padding: 15px; }
+      .navbar-custom .navbar-collapse .nav .active > a,
+      .navbar-custom .navbar-collapse .nav a:hover,
+      .navbar-custom .navbar-collapse .nav a:focus {
+        background-color: #EC0928;
+        border-radius: 5px; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .navbar-custom .navbar-collapse {
+        font-size: 13px; } }
+
+.carousel img {
+  margin: 0px;
+  width: 100%; }
+
+/*============== FOOTER ==============*/
+footer {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: #333333;
+  background-color: #A7A9AC;
+  padding: 24px 0px 48px 0px; }
+  footer a {
+    text-decoration: none;
+    color: #333333;
+    padding: 0px 5px; }
+    footer a:hover {
+      color: #FFFFFF;
+      text-decoration: none; }
+
+/* ======= MEDIA QUERIES ========= */
+@media (max-width: 768px) {
+  header {
+    margin-bottom: 35px; }
+
+  .navbar-header button {
+    margin: 4px; } }
+@media (max-width: 415px) {
+  .navbar-header button {
+    margin-top: 7px; }
+  .navbar-header img {
+    width: 175px; } }
+/*============== Styles for About Page ==============*/
+#section1 {
+  font-family: Roboto, sans-serif; }
+  #section1 h2 {
+    color: #006680;
+    margin-bottom: 48px; }
+  #section1 .row {
+    margin-top: 48px; }
+  #section1 .col-sm-6 {
+    margin-bottom: 48px; }
+
+#section2 {
+  padding-top: 48px;
+  background-color: #006680;
+  color: #FFFFFF;
+  font-family: Roboto, sans-serif; }
+  #section2 .col-sm-6 {
+    margin-bottom: 48px; }
+  #section2 img {
+    height: 100px;
+    margin-bottom: 24px; }
+
+#section3 {
+  margin-top: 72px;
+  margin-bottom: 72px; }
+  #section3 h2 {
+    color: #006680;
+    margin-top: 0px;
+    margin-bottom: 48px; }
+
+/*# sourceMappingURL=about.css.map */
