@@ -1,0 +1,88 @@
+/*============== Styles for About Page ==============*/
+
+header {
+	background-image: url("../imgs/banner-2-home-1080x432.png");
+	background-repeat: no-repeat;
+	height: 432px;
+}
+
+#banner-services {
+	font-family: Roboto, sans-serif;
+	margin-top: 105px;
+}
+
+#banner-services h3,
+#banner-services h2 {
+	color: #FFFFFF;
+}
+
+#banner-services h3 {
+	margin-left: 250px;
+	margin-top: 10px;
+}
+
+#banner-services h2 {
+	margin: 0px 0px 0px 370px;
+	font-size: 36px;
+}
+
+#services {
+	font-family: Roboto, sans-serif;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 0 24px 24px 24px;
+	margin-bottom: 48px;
+}
+
+#services h3 {
+	margin-top: 0px;
+	margin-bottom: 24px;
+}
+
+#services p {
+	text-align: justify;
+}
+
+/**************** Media Queries ****************/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px){
+
+	#banner-services h2 {
+		margin: 0px 0px 0px 120px;
+	}
+
+	#banner-services h3 {
+		margin-left: 175px;
+	}
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px){
+
+	header {
+	}
+
+	#banner-services h2 {
+		margin: auto;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	#banner-services h3 {
+		margin: auto;
+		margin-top: 5px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 537px){
+
+	#banner-services h2 {
+		font-size: 24px;
+	}
+
+	#banner-services h3 {
+		font-size: 18px;
+	}
+}

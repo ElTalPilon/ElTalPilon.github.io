@@ -1,0 +1,153 @@
+/******************** Fonts ********************/
+
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+ @font-face { font-family: Agency; src: url('../fonts/AgencyFB-regular.ttf');}
+
+// Colors
+
+$pill-color:        #EC0928;
+$primary-color:     #FFFFFF;
+$footer-bg-color:   #A7A9AC;
+$footer-font-color: #333333;
+
+/**************** Author Styles ****************/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0px;
+	font-size: 18px;
+}
+
+
+/*============== HEADER ==============*/
+
+header {
+	background-image: url("../imgs/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 480px;
+	margin-bottom: 194px;
+
+	#logo{
+		margin-left: -20px;
+		margin-top: 48px;
+		margin-bottom: 24px;
+	}
+
+	@media (min-width: 992px) and (max-width: 1200px) {
+		margin-bottom: 128px;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		margin-bottom: 46px;
+	}
+}
+
+.navbar-custom {
+	background-color: transparent;
+	font-size: 18px;
+	border: none;
+	margin: 0px;
+
+	.navbar-brand {
+		color: $primary-color;
+
+		&:hover {
+			@extend .navbar-brand;
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			font-size: 15px;
+		}
+
+		@media (max-width: 574px) {
+			font-size: 14px;
+		}
+	}
+
+	.fa-bars {
+		color: $primary-color;
+		padding: 2px 8px;
+		margin-left: 2px;
+		margin-right: 2px;
+		height: 24px;
+	}
+
+	.navbar-collapse {
+		font-family: Agency, sans-serif;
+
+		.nav {
+			padding: 15px;
+
+			&>li>a {
+				@extend .fa-bars;
+			}
+
+			.active>a,
+			a:hover,
+			a:focus {
+				background-color: $pill-color;
+				border-radius: 5px;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			font-size: 13px;
+		}
+	}
+}
+
+.carousel img{
+	margin: 0px;
+	width: 100%;
+}
+
+/*============== FOOTER ==============*/
+
+footer {
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	color: $footer-font-color;
+	background-color: $footer-bg-color;
+	padding: 24px 0px 48px 0px;
+
+	a {
+		text-decoration: none;
+		color: $footer-font-color;
+		padding: 0px 5px;
+
+		&:hover {
+			color: $primary-color;
+			text-decoration: none;
+		}
+	}
+}
+
+/* ======= MEDIA QUERIES ========= */
+
+@media (max-width: 768px) {
+	header {
+		margin-bottom: 35px;
+	}
+
+	.navbar-header button {
+		margin: 4px;
+	}
+}
+
+
+@media (max-width: 415px) {
+	.navbar-header {
+		button {
+			margin-top: 7px;
+		}
+
+		img {
+			width: 175px;
+		}
+	}
+}

@@ -1,0 +1,166 @@
+/******************** Fonts ********************/
+
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+ @font-face { font-family: Agency; src: url('../fonts/AgencyFB-regular.ttf');}
+
+/**************** Author Styles ****************/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0px;
+	font-size: 18px;
+}
+
+/*============== HEADER ==============*/
+
+header {
+	background-image: url("../imgs/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 480px;
+	margin-bottom: 204px;
+}
+
+header #logo{
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
+
+.navbar-custom{
+	background-color: transparent;
+	font-size: 18px;
+	border: none;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.navbar-brand {
+	color: #FFFFFF;
+}
+
+.navbar-brand:hover {
+	color: #FFFFFF;
+}
+
+.navbar-collapse {
+	font-family: Agency, sans-serif;
+}
+
+.navbar-collapse .nav {
+	padding: 15px;
+}
+
+.fa-bars,
+.nav>li>a {
+	color: #FFFFFF;
+	padding: 2px 8px;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 24px;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+	background-color: #EC0928;
+	border-radius: 5px;
+}
+
+.nav>.active>a {
+	background-color: #EC0928;
+	border-radius: 5px;
+}
+
+.carousel-fade img{
+	margin: 0px;
+	width: 100%;
+}
+
+/*============== FOOTER ==============*/
+
+footer {
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	color: #333;
+	background-color: #A7A9AC;
+	padding: 24px 0px 48px 0px;
+}
+
+footer .container {
+	padding-left: 63px;
+	padding-right: 63px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #333;
+	padding: 0px 5px;
+}
+
+footer a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/**************** Media Queries ****************/
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px){
+	header {
+		margin-bottom: 128px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 769px) and (max-width: 991px){
+	header {
+		margin-bottom: 46px;
+	}
+
+	.navbar-brand {
+		font-size: 12px;
+	}
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px){
+	header {
+		margin-bottom: 35px;
+	}
+}
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px){
+
+	.navbar-header button {
+		margin-top: 15px;
+		margin-right: 0px;
+	}
+
+	.navbar-collapse ul {
+		margin-top: 5px;
+	}
+
+	.nav>li>a {
+		margin-bottom: 2px;
+	}
+
+}
+
+@media (max-width: 415px){
+
+	.navbar-brand img {
+		width: 175px;
+	}
+
+	.navbar-header button {
+		margin-top: 7px;
+	}
+}

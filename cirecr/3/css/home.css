@@ -1,0 +1,73 @@
+/*============== Styles for Home Page ==============*/
+
+#section1 {
+	font-family: Roboto, sans-serif;
+	padding: 24px 0px;
+}
+
+#section1 img {
+	margin: 24px auto;
+}
+
+#section1 h2 {
+	margin: 24px auto;
+	color: #006680;
+}
+
+#section1 h3 {
+	font-family: Roboto, sans-serif;
+	font-weight: 100;
+	margin-top: 0px;
+	margin-bottom: 48px;
+	line-height: 35px;
+}
+
+#section2 {
+	padding-top: 48px;
+	background-color: #006680;
+	color: #FFFFFF;
+	font-family: Roboto, sans-serif;
+}
+
+#section2 .col-sm-6 {
+	margin-bottom: 48px;
+}
+
+#section2 h2 {
+	margin-bottom: 24px;
+}
+
+#section2 p {
+	text-align: justify;
+}
+
+#section3 {
+	padding-top: 72px;
+	font-family: Roboto, sans-serif;
+}
+
+#section3 .col-sm-6 {
+	margin-bottom: 72px;
+}
+
+#section3 img {
+	margin: auto;
+}
+
+#section3 a {
+	font-family: Agency, sans-serif;
+	font-weight: 400;
+	border-radius: 5px;
+	background-color: #006680;
+	padding: 2px 12px;
+	color: #FFFFFF;
+}
+
+#section1,
+#section3,
+#section2 .container {
+	padding-left: 63px;
+	padding-right: 63px;
+}
+
+/**************** Media Queries ****************/
