@@ -29,4 +29,28 @@
 	background-color: $main-blue;
 	color: $contrast-white;
 	font-family: Roboto, sans-serif;
+	font-weight: 500;
+
+	h2{
+
+	font-family: Roboto, sans-serif;
+	}
+
+	label {
+	font-weight: 500;
+	}
+
+	.form-control {
+		border: none;
+		border-radius: 0px;
+	}
+
+	button {
+		@extend .fa-bars;
+		font-family: Agency, sans-serif;
+		background-color: $active-pill-color;
+		border-radius: 5px;
+		border: none;
+		font-size: 18px;
+	}
 }
