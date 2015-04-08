@@ -95,32 +95,38 @@ footer {
     width: 175px; } }
 /*============== Styles for About Page ==============*/
 #section1 {
-  font-family: Roboto, sans-serif; }
+  padding-top: 48px;
+  margin-bottom: 48px; }
   #section1 h2 {
     color: #006680;
-    margin-bottom: 48px; }
-  #section1 .row {
-    margin-top: 48px; }
-  #section1 .col-sm-6 {
-    margin-bottom: 48px; }
+    margin: 0px; }
 
 #section2 {
   padding-top: 48px;
+  padding-bottom: 48px;
   background-color: #006680;
   color: #FFFFFF;
   font-family: Roboto, sans-serif; }
-  #section2 .col-sm-6 {
-    margin-bottom: 48px; }
-  #section2 img {
-    height: 100px;
+  #section2 h2 {
+    margin-top: 24px;
     margin-bottom: 24px; }
+  #section2 a {
+    display: inline;
+    color: #8DC63F;
+    font-size: 18px;
+    text-decoration: underline; }
 
 #section3 {
-  margin-top: 72px;
-  margin-bottom: 72px; }
-  #section3 h2 {
-    color: #006680;
-    margin-top: 0px;
+  margin-top: 48px; }
+  #section3 .col-sm-4 {
     margin-bottom: 48px; }
+  #section3 h2 {
+    margin-bottom: 24px; }
+  #section3 h5,
+  #section3 ul {
+    font-size: 18px; }
+    #section3 h5 strong,
+    #section3 ul strong {
+      color: #006680; }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=services.css.map */

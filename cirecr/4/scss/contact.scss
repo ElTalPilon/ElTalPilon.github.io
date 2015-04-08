@@ -1,0 +1,32 @@
+@import 'partials/base';
+
+/*============== Styles for Contact Page ==============*/
+
+#section1 {
+	padding-top: 48px;
+
+	h2 {
+		margin-bottom: 48px;
+	}
+
+	h2,
+	strong {
+		color: $main-blue;
+	}
+
+	#map-canvas {
+		height: 300px;
+	}
+
+	.col-sm-6 {
+		margin-bottom: 48px;
+	}
+}
+
+#section2 {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background-color: $main-blue;
+	color: $contrast-white;
+	font-family: Roboto, sans-serif;
+}

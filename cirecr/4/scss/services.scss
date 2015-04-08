@@ -1,0 +1,54 @@
+@import 'partials/base';
+
+/*============== Styles for About Page ==============*/
+
+#section1 {
+	padding-top: 48px;
+	margin-bottom: 48px;
+
+	h2 {
+		color: $main-blue;
+		margin: 0px;
+	}
+}
+
+#section2 {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background-color: $main-blue;
+	color: $contrast-white;
+	font-family: Roboto, sans-serif;
+
+	h2 {
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+
+	a {
+		display: inline;
+		color: $link-green;
+		font-size: 18px;
+		text-decoration: underline
+	}
+}
+
+#section3 {
+	margin-top: 48px;
+
+	.col-sm-4 {
+		margin-bottom: 48px;
+	}
+
+	h2 {
+		margin-bottom: 24px;
+	}
+
+	h5,
+	ul {
+		font-size: 18px;
+
+		strong {
+			color: $main-blue;
+		}
+	}
+}

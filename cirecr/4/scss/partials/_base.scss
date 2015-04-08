@@ -8,6 +8,7 @@
 $active-pill-color: #EC0928;
 $contrast-white:    #FFFFFF;
 $main-blue: 		#006680;
+$link-green:        #8DC63F;
 $footer-bg-color:   #A7A9AC;
 $footer-font-color: #333333;
 
@@ -116,6 +117,11 @@ footer {
 	background-color: $footer-bg-color;
 	padding: 24px 0px 48px 0px;
 
+	.container {
+		padding-left: 63px;
+		padding-right: 63px;
+	}
+
 	a {
 		text-decoration: none;
 		color: $footer-font-color;
@@ -124,6 +130,10 @@ footer {
 		&:hover {
 			color: $contrast-white;
 			text-decoration: none;
+		}
+
+		&:focus {
+			@extend a;
 		}
 	}
 }
@@ -137,6 +147,11 @@ footer {
 
 	.navbar-header button {
 		margin: 4px;
+	}
+
+	footer .container {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
 
