@@ -4,7 +4,7 @@
   font-family: Agency;
   src: url("../fonts/AgencyFB-regular.ttf"); }
 /**************** Author Styles ****************/
-body {
+html, body {
   margin: 0;
   padding: 0; }
 
@@ -73,6 +73,9 @@ footer {
   color: #333333;
   background-color: #A7A9AC;
   padding: 24px 0px 48px 0px; }
+  footer .container {
+    padding-left: 63px;
+    padding-right: 63px; }
   footer a, footer a:focus {
     text-decoration: none;
     color: #333333;
@@ -87,7 +90,11 @@ footer {
     margin-bottom: 35px; }
 
   .navbar-header button {
-    margin: 4px; } }
+    margin: 4px; }
+
+  footer .container {
+    padding-left: 0px;
+    padding-right: 0px; } }
 @media (max-width: 415px) {
   .navbar-header button {
     margin-top: 7px; }
@@ -114,6 +121,8 @@ footer {
   #section2 img {
     height: 100px;
     margin-bottom: 24px; }
+  #section2 q {
+    font-size: 18px; }
 
 #section3 {
   margin-top: 72px;
