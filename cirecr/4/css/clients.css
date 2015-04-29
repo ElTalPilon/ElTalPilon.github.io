@@ -6,11 +6,13 @@
 /**************** Author Styles ****************/
 html, body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: Roboto, sans-serif; }
 
 p {
   margin: 0px;
-  font-size: 18px; }
+  font-size: 18px;
+  text-align: justify; }
 
 /*============== HEADER ==============*/
 header {
@@ -66,6 +68,16 @@ header {
   margin: 0px;
   width: 100%; }
 
+/*=============== BODY ===============*/
+#section1, #section2, #section3 {
+  padding-top: 48px; }
+  #section1 .col, #section2 .col, #section3 .col {
+    margin-bottom: 48px; }
+
+#section2 {
+  background-color: #006680;
+  color: #FFFFFF; }
+
 /*============== FOOTER ==============*/
 footer {
   font-family: Roboto, sans-serif;
@@ -73,9 +85,8 @@ footer {
   color: #333333;
   background-color: #A7A9AC;
   padding: 24px 0px 48px 0px; }
-  footer .container {
-    padding-left: 63px;
-    padding-right: 63px; }
+  footer p {
+    text-align: inherit; }
   footer a, footer a:focus {
     text-decoration: none;
     color: #333333;
@@ -83,6 +94,9 @@ footer {
     footer a:hover {
       color: #FFFFFF;
       text-decoration: none; }
+  @media (max-width: 393px) {
+    footer a, footer a:focus {
+      display: block; } }
 
 /* ======= MEDIA QUERIES ========= */
 @media (max-width: 768px) {
@@ -100,17 +114,12 @@ footer {
     margin-top: 7px; }
   .navbar-header img {
     width: 175px; } }
-#section1 {
-  padding-top: 48px;
-  padding-bottom: 48px; }
-  #section1 h2 {
-    margin-bottom: 48px;
-    color: #006680; }
-  #section1 p {
-    margin-bottom: 24px; }
-  #section1 ul {
-    font-size: 18px;
-    margin-bottom: 48px;
-    line-height: 2em; }
+#section1 h2 {
+  color: #006680; }
+#section1 p {
+  margin-bottom: 24px; }
+#section1 ul {
+  font-size: 18px;
+  line-height: 2em; }
 
 /*# sourceMappingURL=clients.css.map */

@@ -4,13 +4,15 @@
   font-family: Agency;
   src: url("../fonts/AgencyFB-regular.ttf"); }
 /**************** Author Styles ****************/
-body {
+html, body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: Roboto, sans-serif; }
 
 p {
   margin: 0px;
-  font-size: 18px; }
+  font-size: 18px;
+  text-align: justify; }
 
 /*============== HEADER ==============*/
 header {
@@ -66,6 +68,16 @@ header {
   margin: 0px;
   width: 100%; }
 
+/*=============== BODY ===============*/
+#section1, #section2, #section3 {
+  padding-top: 48px; }
+  #section1 .col, #section2 .col, #section3 .col {
+    margin-bottom: 48px; }
+
+#section2 {
+  background-color: #006680;
+  color: #FFFFFF; }
+
 /*============== FOOTER ==============*/
 footer {
   font-family: Roboto, sans-serif;
@@ -73,6 +85,8 @@ footer {
   color: #333333;
   background-color: #A7A9AC;
   padding: 24px 0px 48px 0px; }
+  footer p {
+    text-align: inherit; }
   footer a, footer a:focus {
     text-decoration: none;
     color: #333333;
@@ -80,6 +94,9 @@ footer {
     footer a:hover {
       color: #FFFFFF;
       text-decoration: none; }
+  @media (max-width: 393px) {
+    footer a, footer a:focus {
+      display: block; } }
 
 /* ======= MEDIA QUERIES ========= */
 @media (max-width: 768px) {
@@ -87,26 +104,23 @@ footer {
     margin-bottom: 35px; }
 
   .navbar-header button {
-    margin: 4px; } }
+    margin: 4px; }
+
+  footer .container {
+    padding-left: 0px;
+    padding-right: 0px; } }
 @media (max-width: 415px) {
   .navbar-header button {
     margin-top: 7px; }
   .navbar-header img {
     width: 175px; } }
 /*============== Styles for About Page ==============*/
-#section1 {
-  padding-top: 48px;
-  margin-bottom: 48px; }
-  #section1 h2 {
-    color: #006680;
-    margin: 0px; }
+#section1 h2 {
+  color: #006680; }
 
 #section2 {
-  padding-top: 48px;
-  padding-bottom: 48px;
   background-color: #006680;
-  color: #FFFFFF;
-  font-family: Roboto, sans-serif; }
+  color: #FFFFFF; }
   #section2 h2 {
     margin-top: 24px;
     margin-bottom: 24px; }
@@ -116,17 +130,13 @@ footer {
     font-size: 18px;
     text-decoration: underline; }
 
-#section3 {
-  margin-top: 48px; }
-  #section3 .col-sm-4 {
-    margin-bottom: 48px; }
-  #section3 h2 {
-    margin-bottom: 24px; }
-  #section3 h5,
-  #section3 ul {
-    font-size: 18px; }
-    #section3 h5 strong,
-    #section3 ul strong {
-      color: #006680; }
+#section3 h2 {
+  margin-bottom: 24px; }
+#section3 h5,
+#section3 ul {
+  font-size: 18px; }
+  #section3 h5 strong,
+  #section3 ul strong {
+    color: #006680; }
 
 /*# sourceMappingURL=services.css.map */

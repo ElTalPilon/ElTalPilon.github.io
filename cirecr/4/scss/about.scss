@@ -9,25 +9,11 @@
 		color: $main-blue;
 		margin-bottom: 48px;
 	}
-
-	.row {
-		margin-top: 48px;
-	}
-
-	.col-sm-6 {
-		margin-bottom: 48px;
-	}
 }
 
 #section2 {
-	padding-top: 48px;
 	background-color: $main-blue;
 	color: $contrast-white;
-	font-family: Roboto, sans-serif;
-
-	.col-sm-6 {
-		margin-bottom: 48px;
-	}
 
 	img {
 		height: 100px;
@@ -40,9 +26,6 @@
 }
 
 #section3 {
-	margin-top: 72px;
-	margin-bottom: 72px;
-
 	h2 {
 		color: $main-blue;
 		margin-top: 0px;
