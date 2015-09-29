@@ -130,6 +130,8 @@ footer {
     font-size: 18px;
     text-decoration: underline; }
 
+#section3 .col-sm-12 {
+  margin-bottom: 0px; }
 #section3 h2 {
   margin-bottom: 24px; }
 #section3 h5,
