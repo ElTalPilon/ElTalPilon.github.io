@@ -121,6 +121,9 @@ footer {
   color: #006680; }
 #section1 #map-canvas {
   height: 300px; }
+  @media (max-width: 768px) {
+    #section1 #map-canvas {
+      margin-bottom: 0px; } }
 
 #section2 {
   background-color: #006680;
