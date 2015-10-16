@@ -24,10 +24,6 @@ header {
   background-repeat: no-repeat;
   height: 480px;
   margin-bottom: 194px; }
-  header #logo {
-    margin-left: -20px;
-    margin-top: 48px;
-    margin-bottom: 24px; }
   @media (min-width: 992px) and (max-width: 1200px) {
     header {
       margin-bottom: 128px; } }
