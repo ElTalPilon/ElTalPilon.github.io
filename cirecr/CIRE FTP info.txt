@@ -1,0 +1,3 @@
+ftp.cirecr.com
+user: cire_webmaster
+pass: hfF2Ax6S

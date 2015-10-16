@@ -69,7 +69,7 @@ header {
 		}
 
 		@media (max-width: 574px) {
-			font-size: 14px;
+			//font-size: 14px;
 		}
 	}
 
@@ -89,6 +89,7 @@ header {
 
 			&>li>a {
 				@extend .fa-bars;
+				margin-top: 2px;
 			}
 
 			.active>a,
