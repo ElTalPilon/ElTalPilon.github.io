@@ -138,5 +138,7 @@ footer {
   #section3 h5 strong,
   #section3 ul strong {
     color: #006680; }
+#section3 .col-sm-6:nth-child(2) {
+  height: 200px; }
 
 /*# sourceMappingURL=services.css.map */

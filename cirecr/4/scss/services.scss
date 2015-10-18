@@ -43,4 +43,8 @@
 			color: $main-blue;
 		}
 	}
+
+	.col-sm-6:nth-child(2) {
+		height: 200px;
+	}
 }
