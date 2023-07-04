@@ -1,0 +1,9 @@
+# General
+.DS_Store
+
+# Config
+node_modules
+package-lock.json
+
+# Code
+styles.css.map

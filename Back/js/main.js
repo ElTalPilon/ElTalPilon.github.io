@@ -1,0 +1,1 @@
+const alguito = "Hola!";
